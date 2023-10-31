@@ -1,14 +1,14 @@
 1.  Go to Elastic Beanstalk
 2.  Select "Application" on the left panel
-3.  Select the apllication
-4.  Click on the "Action"dropdown and select "Create Environment"
+3.  Select the application
+4.  Click on the "Action" dropdown and select "Create Environment"
 5.  Under "Platform", choose "Python" for Platform
 6.  For Platform branch, select "Python 3.9..."
-7.  For Application code, select "Existing verison" and choose an existing verison
+7.  For the Application code, select "Existing version" and choose an existing version
 8.  Click "Next"
 9.  Click "Next"
 10.  Under VPC, select default VPC
-11.  Under Insance Settings, select "Activated"
+11.  Under Instance Settings, select "Activated"
 12.  Select two instance subnets
 13.  Click "Next"
 14.  For Root volume type, select "General Purpose (SSD)"
@@ -25,4 +25,7 @@
 25.  For Upper threshold, replace with "700"
 26.  For Lower threshold, replace with "600"
 27.  For Load Balancer Subnets, verify that the availability zones are the same as #12 above
-28.  
+28.  Click "Next"
+29.  Click "Next"
+30.  Click "Submit"
+
